@@ -1,0 +1,16 @@
+{
+	"mVersionDependency": {
+		"UI5.sap/ui/commons.sap_belize_plus": "1.64.0",
+		"UI5.sap/ui/commons": "1.64.0",
+		"UI5": "1.64.0"
+	},
+	"sEntity": "Theme",
+	"sId": "vladtesttheme--Contrast",
+	"oExtends": "UI5.sap/ui/commons.sap_belize_plus",
+	"aBundled": [
+		"vladtesttheme"
+	],
+	"sBuildOptions": "SKIP",
+	"sType": "ABSTRACT",
+	"sThemability": "PRIVATE"
+}

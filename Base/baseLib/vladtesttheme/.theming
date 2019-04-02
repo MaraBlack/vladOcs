@@ -1,0 +1,68 @@
+{
+	"mVersionDependency": {
+		"Base.baseLib.sap_belize": "11.0.24",
+		"Base.baseLib": "11.0.24",
+		"Base": "11.0.24"
+	},
+	"sEntity": "Theme",
+	"sId": "vladtesttheme",
+	"sLabel": "Custom Belize (2)",
+	"oExtends": "Base.baseLib.sap_belize",
+	"aFiles": [
+		"base",
+		"preview",
+		"css_variables",
+		"custom"
+	],
+	"aBundled": [
+		"vladtesttheme--Contrast"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"mCssScopes": {
+		"css_variables": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Contrast",
+					"sSelector": "sapContrast",
+					"sThemeIdSuffix": "Contrast",
+					"sThemability": "PUBLIC",
+					"aThemabilityFilter": [
+						"Color"
+					],
+					"sEmbeddedFile": "vladtesttheme--Contrast.css_variables",
+					"sEmbeddedCompareFile": "css_variables"
+				}
+			],
+			"sBaseFile": "css_variables"
+		}
+	},
+	"mData": {
+		"mThemeMasterState": {
+			"mSourceInfo": {
+				"sCreated": "2019-04-01T09:18:42.164Z",
+				"sLastModified": "2019-04-01T09:25:15.482Z",
+				"aVersionHistory": [
+					{
+						"sDate": "2019-04-01T09:18:42.164Z",
+						"mVersion": {
+							"Base": "11.0.24",
+							"UR": "10.30.7.311396.0",
+							"UI5": "1.64.0"
+						}
+					}
+				]
+			},
+			"mBuildInfo": {
+				"sLastBuilt": "2019-04-01T09:25:22.289Z",
+				"mVersion": {
+					"Base": "11.0.24",
+					"UR": "10.30.7.311396.0",
+					"UI5": "1.64.0"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"mVersionDependency": {
+		"UI5.sap/ui/codeeditor.sap_belize": "1.64.0",
+		"UI5.sap/ui/codeeditor": "1.64.0",
+		"UI5": "1.64.0"
+	},
+	"sEntity": "Theme",
+	"sId": "vladtesttheme",
+	"sLabel": "Custom Belize (2)",
+	"oExtends": "UI5.sap/ui/codeeditor.sap_belize",
+	"aBundled": [
+		"vladtesttheme--Contrast"
+	],
+	"sTextDirections": "LTR",
+	"sType": "STANDARD",
+	"sThemability": "PUBLIC",
+	"mCssScopes": {
+		"library": {
+			"sEmbeddingMethod": "APPEND",
+			"aScopes": [
+				{
+					"sLabel": "Contrast",
+					"sSelector": "sapContrast",
+					"sThemeIdSuffix": "Contrast",
+					"sThemability": "PUBLIC",
+					"aThemabilityFilter": [
+						"Color"
+					],
+					"rExcludeSelector": "\\.sapContrastPlus\\W",
+					"sEmbeddedFile": "vladtesttheme--Contrast.library",
+					"sEmbeddedCompareFile": "library"
+				}
+			],
+			"sBaseFile": "library"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"mVersionDependency": {
+		"UI5.sap/uxap.sap_belize_plus": "1.64.0",
+		"UI5.sap/uxap": "1.64.0",
+		"UI5": "1.64.0"
+	},
+	"sEntity": "Theme",
+	"sId": "vladtesttheme--Contrast",
+	"oExtends": "UI5.sap/uxap.sap_belize_plus",
+	"aBundled": [
+		"vladtesttheme"
+	],
+	"sType": "ABSTRACT",
+	"sThemability": "PRIVATE"
+}
