@@ -1,0 +1,14 @@
+{
+  "name": "vladtheme",
+  "version": "1.0.0",
+  "description": "a beautiful pink theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ocs"
+  ],
+  "author": "Maria <maria.bolea@cerner.com>",
+  "license": "ISC"
+}
